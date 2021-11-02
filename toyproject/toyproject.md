@@ -8,11 +8,13 @@ description: 혼자 여행온 사람을 위한 여행 메이트 매칭 서비스
 
 프로젝트 참여 인원 : 6명
 
+프로젝트 협업 툴 : notion (산출물 정리), github (형상관리), discode (회의 진행)
+
+프로젝트의 **모든 산출물** - notion 주소 : [https://url.kr/ugx1ar](https://url.kr/ugx1ar)
+
 프로젝트 소스 코드
 
 {% embed url="https://github.com/Harim2da/Devs.honddoni" %}
-
-'혼또니' 프로젝트의 **모든 산출물** - notion 주소 : [https://url.kr/ugx1ar](https://url.kr/ugx1ar)
 
 ## 0. 여행 매칭 서비스를 한 이유
 
@@ -26,7 +28,7 @@ toyProject이지만 팀원들과 각자 꼭 해보고 싶은 기능을 얘기했
 
 ## 1. 사용한 기술
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (35) (1).png>)
 
 **Java Swing**으로 진행했던 프로젝트이기에 개발 환경은 위와 같습니다.
 
@@ -67,29 +69,29 @@ Java를 갓 배우고 진행한 프로젝트였기 때문에 익숙해지고 프
 
 전체 업무 흐름도를 작성해, 프로그램 전체의 데이터 흐름을 파악했습니다.
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 작성한 내용을 바탕으로 논리 데이터 모델(ERD)를 만들었습니다.
 
-![](<../.gitbook/assets/image (34).png>)
+![](<../.gitbook/assets/image (34) (1).png>)
 
 이용자가 작성할 게시글은 지역별, 카테고리별로 검색 및 작성이 가능합니다. 따라서 하나의 지역코드 혹은 카테고리에 여러 개의 '혼또니 게시글'이 들어가 있기에 1 : 다 관계가 성립합니다.
 
 ## 6. 구현 화면과 코드
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (26) (1).png>)
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15) (1).png>)
 
 * **Service**
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (32) (1).png>)
 
 Java에서 바로 DB에 연결하기 때문에 직접 getConnection으로 연결, 결과값에 의해 commit 혹은 rollback 처리했습니다.
 
 * **SQL**
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 혼또니 게시글 작성 시, 게시글 번호는 시퀀스로 입력되고 삭제여부는 default로 지정한 값(='N')으로 저장되도록 설정했습니다.
 

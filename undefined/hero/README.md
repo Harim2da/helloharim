@@ -10,6 +10,10 @@ coverY: 0
 
 프로젝트 참여 인원 : 5명
 
+프로젝트 협업 툴 : notion (산출물 정리), github (형상관리), discode (회의 진행)&#x20;
+
+프로젝트 **모든 산출물** - notion 주소 : [https://url.kr/2d1eyj](https://url.kr/2d1eyj)
+
 프로젝트 소스 코드
 
 {% embed url="https://github.com/min961226/HERO" %}
@@ -28,7 +32,7 @@ coverY: 0
 
 ## 1. 사용한 기술
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 ## 2. 이 프로젝트를 하며 해결하고 싶었던 문제
 
