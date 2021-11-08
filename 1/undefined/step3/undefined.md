@@ -2,29 +2,29 @@
 description: 담당 파트 중 일부분의 화면, 코드를 설명합니다.
 ---
 
-# 담당 파트 코드 설명
+# 이하림 구현 화면 및 코드
 
-## 구현 코드
+## 구현 화면 및 코드
 
 ### 1) 관리자의 의뢰 리스트 검색 조회 (상세 조회 포함)&#x20;
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-![](<../../../.gitbook/assets/image (48).png>)
+![](<../../../.gitbook/assets/image (48) (1).png>)
 
 * **View (JSP)**
 
 1. 효율적인 코드 정리를 위해 jsp include 지시자 태그를 활용했습니다.  다른 jsp 파일에 nav bar를 작성하고 이를 불러오는 방식을 사용했습니다.
 2. form 태그를 사용해 관리자가 입력한 검색어를 get 방식으로 전달해, 검색 기능 중, 주로 사용할 기능을 select 방식으로 선택할 수 있게 설정했습니다.
 
-![](<../../../.gitbook/assets/image (12).png>)
+![](<../../../.gitbook/assets/image (12) (1).png>)
 
 * **Model**
 
 1. view에서 입력한 검색어 및 검색 조건을 hashMap에 담아 전달했습니다.
 2. DB에서 조회한 결과 값은 여러 개의 DTO를 포함하므로, ArrayList 자료형으로 return했습니다.
 
-![](<../../../.gitbook/assets/image (29).png>)
+![](<../../../.gitbook/assets/image (29) (1).png>)
 
 * **SQL**
 
@@ -35,9 +35,9 @@ description: 담당 파트 중 일부분의 화면, 코드를 설명합니다.
 
 **의뢰 리스트 상세 조회**
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
-![](<../../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (26) (1).png>)
 
 * **View (JSP)**
 
@@ -49,7 +49,7 @@ description: 담당 파트 중 일부분의 화면, 코드를 설명합니다.
 
 ### 2) 관리자의 정산 자동 계산 및 정산 대기 등록
 
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/image (7) (1).png>)
 
 * **Controller & Service**
 
@@ -67,6 +67,6 @@ description: 담당 파트 중 일부분의 화면, 코드를 설명합니다.
 
 * **Service**
 
-![](<../../../.gitbook/assets/image (22) (1).png>)
+![](<../../../.gitbook/assets/image (22) (1) (1).png>)
 
 1\) view에서 전달 받은 값을 기반으로 service에서는 hashMap에 담에 DB에 insert하는 것으로 프로세스는 종료됩니다.
