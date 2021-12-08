@@ -67,7 +67,7 @@ description: JAVA Back-end 개발자로 시작하려는 이하림입니다.
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-* **1인 가구 부분 청소 서비스 프로그램 **'맡겨줘 홈즈'
+* **1인 가구 부분 청소 서비스 프로그램** '맡겨줘 홈즈'
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)

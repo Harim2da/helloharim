@@ -21,8 +21,8 @@ description: 데이터베이스, 화면, 메뉴 구조, 프로그램 설계 등�
 
 자세한 설계 과정과 내용은 다음 페이지에 작성했습니다.
 
-{% content-ref url="../../../1/undefined/step2/undefined.md" %}
-[undefined.md](../../../1/undefined/step2/undefined.md)
+{% content-ref url="../../../1/cleanhome/step2/undefined.md" %}
+[undefined.md](../../../1/cleanhome/step2/undefined.md)
 {% endcontent-ref %}
 
 
